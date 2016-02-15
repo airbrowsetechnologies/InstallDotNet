@@ -1,4 +1,4 @@
-##Documentation for InstallDotNet - being edited ATM, return later
+#Documentation for InstallDotNet - being edited ATM, return later
 
 ###Design
 
@@ -11,14 +11,13 @@
 
 ###Special file options (specified in the FileOptions property of the Installer).
 
-####STATEMENTS: the whole line of code to execute
+#####STATEMENTS: the whole line of code to execute
 
-**NOTE: Statements are split by spaces (don't enter a space unless you mean to)**
+- NOTE: Statements are split by spaces (don't enter a space unless you mean to)
+  - To enter a space into a parameter, use "%20"
+  - *Ex: name:My%20Cool%20App will compile as My Cool App*
 
-To enter a space into a parameter, use "%20"
-*Ex: name:My%20Cool%20App will compile as My Cool App*
-
-####COMMANDS:
+#####COMMANDS:
 Commands are always the first word in the statement
 
 run (used to install dependencies like .NET framework, etc.)
@@ -35,7 +34,7 @@ delete (deletes a file after install, useful after calling "run" (above) on a fi
 	Parameter: file
 
 
-####PARAMETERS:
+#####PARAMETERS:
 	file: the path of the file inside the install directory
 		set by prefix ?
 		ex: delete ?myfile.exe 
