@@ -53,14 +53,14 @@ Commands are always the first word in the statement
 
 
 Example:
-	```
-	run ?dotNetFramework4.exe &argument1 msg:Installing%20.NET%20Framework...
-	delete ?dotNetFramework4.exe
-	installfont ?open%20sans.ttf msg:Installing%20fonts...
-	delete ?open%20sans.ttf
-	createshortcut ?mySecondaryApp.exe name:My%20Second%20App msg:Creating%20shortcuts...
-	run ?readme.txt async	
-        ```
+```
+run ?dotNetFramework4.exe &argument1 msg:Installing%20.NET%20Framework...
+delete ?dotNetFramework4.exe
+installfont ?open%20sans.ttf msg:Installing%20fonts...
+delete ?open%20sans.ttf
+createshortcut ?mySecondaryApp.exe name:My%20Second%20App msg:Creating%20shortcuts...
+run ?readme.txt async	
+```
 	Line by line explanation:
 		1. runs the file called "dotNetFramework4.exe" (which could be an installer for the framework)
 		2. deletes the file "dotNetFramework4.exe" now that it has been installed.
