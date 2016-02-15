@@ -16,3 +16,4 @@ E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\Ionic.Zip.xml
 E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.exe
 E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.xml
 E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.pdb
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.vbprojResolveAssemblyReference.cache
