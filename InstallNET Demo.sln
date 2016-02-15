@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "InstallNET Demo", "Install.NET Demo\InstallNET Demo.vbproj", "{C0EE29BB-D74D-47D4-841B-F0A9F5E49E8D}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UninstallNET Demo", "UninstallNET Demo\UninstallNET Demo.vbproj", "{FBA0BA8C-62CF-44A6-856E-61911B625D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0EE29BB-D74D-47D4-841B-F0A9F5E49E8D}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EE29BB-D74D-47D4-841B-F0A9F5E49E8D}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{C0EE29BB-D74D-47D4-841B-F0A9F5E49E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EE29BB-D74D-47D4-841B-F0A9F5E49E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA0BA8C-62CF-44A6-856E-61911B625D10}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA0BA8C-62CF-44A6-856E-61911B625D10}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FBA0BA8C-62CF-44A6-856E-61911B625D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA0BA8C-62CF-44A6-856E-61911B625D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
