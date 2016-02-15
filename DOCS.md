@@ -12,9 +12,11 @@
 ###Special file options (specified in the FileOptions property of the Installer).
 
 ####STATEMENTS: the whole line of code to execute
+
 **NOTE: Statements are split by spaces (don't enter a space unless you mean to)**
-	To enter a space into a parameter, use "%20"
-		Ex: name:My%20Cool%20App will compile as My Cool App
+
+To enter a space into a parameter, use "%20"
+*Ex: name:My%20Cool%20App will compile as My Cool App*
 
 ####COMMANDS:
 Commands are always the first word in the statement
