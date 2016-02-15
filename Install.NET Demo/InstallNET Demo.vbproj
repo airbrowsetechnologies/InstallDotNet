@@ -50,10 +50,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="InstallDotNet">
-      <HintPath>..\..\CustomInstaller\CustomInstaller\bin\Debug\InstallDotNet.dll</HintPath>
+      <HintPath>..\..\..\Visual Studio 2012\Projects\CustomInstaller\CustomInstaller\bin\Debug\InstallDotNet.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="KratosDesign">
-      <HintPath>..\..\CustomInstaller\CustomInstaller\bin\Debug\KratosDesign.dll</HintPath>
+      <HintPath>..\..\..\..\Downloads\NonClientArea\WindowsApplication2\WindowsApplication2\bin\Debug\KratosDesign.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

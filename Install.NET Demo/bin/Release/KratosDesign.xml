@@ -1,0 +1,181 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+KratosDesign
+</name>
+</assembly>
+<members>
+<member name="M:KratosDesign.Shape.RoundedRectangle(System.Drawing.RectangleF,System.Single,KratosDesign.Shape.Corner)">
+	<summary>
+ Rounds the corners of a rectangle and returns the graphics path.
+ </summary>
+	<param name="rect">A rectangle whose corners should be rounded.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the rectangle’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="M:KratosDesign.Shape.RoundedRectangle(System.Drawing.Rectangle,System.Int32,KratosDesign.Shape.Corner)">
+	<summary>
+ Rounds the corners of a rectangle and returns the graphics path.
+ </summary>
+	<param name="rect">A rectangle whose corners should be rounded.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the rectangle’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="M:KratosDesign.Shape.RoundedRegion(System.Drawing.SizeF,System.Single,KratosDesign.Shape.Corner)">
+	<summary>
+ Creats and returns a rounded corner region.
+ </summary>
+	<param name="rSize">The size of the region.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the region’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="M:KratosDesign.Shape.RoundedRegion(System.Drawing.Size,System.Int32,KratosDesign.Shape.Corner)">
+	<summary>
+ Creats and returns a rounded corner region.
+ </summary>
+	<param name="rSize">The size of the region.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the region’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="M:KratosDesign.Shape.RoundedRegion(System.Drawing.RectangleF,System.Single,KratosDesign.Shape.Corner)">
+	<summary>
+ Creats and returns a rounded corner region.
+ </summary>
+	<param name="rect">The rectangle of the region.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the region’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="M:KratosDesign.Shape.RoundedRegion(System.Drawing.Rectangle,System.Int32,KratosDesign.Shape.Corner)">
+	<summary>
+ Creats and returns a rounded corner region.
+ </summary>
+	<param name="rect">The rectangle of the region.</param>
+	<param name="radius">The radius of the rounded corners. This value should be 
+ bigger than or equal to 0 and less or equal to the half of the smallest value 
+ of the region’s side.</param>
+	<param name="exclude">A value that specifies the corners that should be excluded from rounding. This value 
+ can be one or combination of the Shape.Corner enumeration value combined by "OR".</param>
+</member><member name="T:KratosDesign.Shape">
+	<summary>
+ Provides methods to round the corners of a rectangle or create rounded corner region.
+ </summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.closewhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.logoicon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.winclose">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.wincloseblack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.winmaximize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.winmaximizeblack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.winminimize">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:KratosDesign.My.Resources.Resources.winminimizeblack">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:KratosDesign.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:KratosDesign.Dwm.WTNCA_NODRAWCAPTION">
+	<summary>
+ Do Not Draw The Caption (Text)
+ </summary>
+</member><member name="F:KratosDesign.Dwm.WTNCA_NODRAWICON">
+	<summary>
+ Do Not Draw the Icon
+ </summary>
+</member><member name="F:KratosDesign.Dwm.WTNCA_NOSYSMENU">
+	<summary>
+ Do Not Show the System Menu
+ </summary>
+</member><member name="F:KratosDesign.Dwm.WTNCA_NOMIRRORHELP">
+	<summary>
+ Do Not Mirror the Question mark Symbol
+ </summary>
+</member><member name="T:KratosDesign.Dwm.WTA_OPTIONS">
+	<summary>
+ The Options of What Attributes to Add/Remove
+ </summary>
+</member><member name="T:KratosDesign.Dwm.WindowThemeAttributeType">
+	<summary>
+ What Type of Attributes? (Only One is Currently Defined)
+ </summary>
+</member><member name="M:KratosDesign.Dwm.SetWindowThemeAttribute(System.IntPtr,KratosDesign.Dwm.WindowThemeAttributeType,KratosDesign.Dwm.WTA_OPTIONS@,System.UInt32)">
+	<summary>
+ Set The Window's Theme Attributes
+ </summary>
+	<param name="hWnd">The Handle to the Window</param>
+	<param name="wtype">What Type of Attributes</param>
+	<param name="attributes">The Attributes to Add/Remove</param>
+	<param name="size">The Size of the Attributes Struct</param>
+	<returns>If The Call Was Successful or Not</returns>
+</member><member name="M:KratosDesign.KratosForm.CheckGlassEnabled">
+	<summary>
+ Sets the value of AeroEnabled
+ </summary>
+</member><member name="M:KratosDesign.KratosForm.LoWord(System.Int32)">
+	<summary>
+ Equivalent to the LoWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member><member name="M:KratosDesign.KratosForm.HiWord(System.Int32)">
+	<summary>
+ Equivalent to the HiWord C Macro
+ </summary>
+	<param name="dwValue"></param>
+	<returns></returns>
+</member>
+</members>
+</doc>

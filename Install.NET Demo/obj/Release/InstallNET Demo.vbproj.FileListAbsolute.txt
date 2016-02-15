@@ -1,0 +1,18 @@
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallNET Demo.exe.config
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET_Demo.Installer.resources
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET_Demo.Resources.resources
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.vbproj.GenerateResource.Cache
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallNET Demo.exe
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallNET Demo.pdb
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallNET Demo.xml
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallDotNet.dll
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\KratosDesign.dll
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\Ionic.Zip.dll
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallDotNet.pdb
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\InstallDotNet.xml
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\KratosDesign.pdb
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\KratosDesign.xml
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\bin\Release\Ionic.Zip.xml
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.exe
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.xml
+E:\csp\Documents\GitHub\InstallDotNet\Install.NET Demo\obj\Release\InstallNET Demo.pdb

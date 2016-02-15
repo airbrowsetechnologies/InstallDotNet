@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InstallDotNet
+</name>
+</assembly>
+<members>
+<member name="M:InstallDotNet.InstallerForm.RegisterFont(System.String)">
+	<summary>
+ Installs font on the user's system and adds it to the registry so it's available on the next session
+ Your font must be included in your project with its build path set to 'Content' and its Copy property
+ set to 'Copy Always'
+ </summary>
+	<param name="contentFontName">Your font to be passed as a resource (i.e. "myfont.tff")</param>
+</member><member name="P:InstallDotNet.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:InstallDotNet.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:InstallDotNet.My.Resources.Resources.computerwhite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:InstallDotNet.My.Resources.Resources.splash">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:InstallDotNet.My.Resources.Resources.web">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:InstallDotNet.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

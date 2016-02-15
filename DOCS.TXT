@@ -49,7 +49,7 @@ PARAMETERS:
 		CAN BE USED WITH ANY COMMAND
 
 
-Example:
+EXAMPLE:
 	
 	run ?dotNetFramework4.exe &argument1 msg:Installing%20.NET%20Framework...
 	delete ?dotNetFramework4.exe
