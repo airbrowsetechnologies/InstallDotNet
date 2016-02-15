@@ -9,7 +9,7 @@ The implementation is simple (all has already been done in this example):
 1. Import InstallDotNet.dll and KratosDesign.dll (optional, used to edit form design)
 2. Install Costura.Fody from NuGet to embed all resources into one portable .exe
 3. Edit the app.manifest file and change requestedExecutionLevel from asInvoker to requireAdministrator (required to edit uninstall registry dll).
-4. Build your uninstaller first. Then put the uninstaller in the zip file which your installer will download from.
+4. **Build your uninstaller first. Then put the uninstaller in the zip file which your installer will download from.**
 5. Add a form and set it to inherit from InstallDotNet.InstallerForm
 6. Edit the required fields. View the DOCS.TXT to read the docs on FileOptions
 7. You're done!
