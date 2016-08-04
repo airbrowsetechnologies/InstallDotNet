@@ -31,7 +31,7 @@ Partial Class Installer
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
-        Me.ClientSize = New System.Drawing.Size(906, 1062)
+        Me.ClientSize = New System.Drawing.Size(922, 1062)
         Me.Description = "Creates AirBrowse apps."
         Me.Developer = "AirBrowse Technologies"
         Me.FileOptions.AddRange(New String() {"run ?vcredist_x86.exe &/install &/quiet &/norestart msg:Installing%20Visual%20C++" & _
@@ -44,6 +44,7 @@ Partial Class Installer
         Me.SplashImage = Global.InstallNET_Demo.My.Resources.Resources.applauncher
         Me.TitleBarImage = Global.InstallNET_Demo.My.Resources.Resources.applauncher
         Me.UninstallerPath = "uninstall.exe"
+        Me.VersionURL = "http://airbrowse.x10host.com/airbrowse/version.txt"
         Me.ZipFileURL = "https://www.dropbox.com/s/a57z116pbos04e5/AppCreator.zip?dl=1"
         Me.ResumeLayout(False)
 

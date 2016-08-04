@@ -16,3 +16,4 @@ E:\csp\Documents\GitHub\InstallDotNet\UninstallNET Demo\bin\Release\Ionic.Zip.xm
 E:\csp\Documents\GitHub\InstallDotNet\UninstallNET Demo\obj\Release\UninstallNET Demo.exe
 E:\csp\Documents\GitHub\InstallDotNet\UninstallNET Demo\obj\Release\UninstallNET Demo.xml
 E:\csp\Documents\GitHub\InstallDotNet\UninstallNET Demo\obj\Release\UninstallNET Demo.pdb
+E:\csp\Documents\GitHub\InstallDotNet\UninstallNET Demo\obj\Release\UninstallNET Demo.vbprojResolveAssemblyReference.cache
